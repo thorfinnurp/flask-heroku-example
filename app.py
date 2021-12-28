@@ -19,7 +19,7 @@ def index():
     json_data = {'Hello': 'World!'}
     return jsonify(json_data)
 
-@app.route("/", methods=['GET', 'POST'])
+@app.route("/home", methods=['GET', 'POST'])
 def home():
     global name
     global name2
